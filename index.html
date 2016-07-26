@@ -136,7 +136,9 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<p>Feel free to reach me using any of the communication forms below! The choice, dear fellow, is yours.</p>
-							<form method="post" action="#">
+							<!-- <form method="post" action="#"> -->
+							<!-- <form method="post" action="mailto:me@bidyutm.com" > -->
+							<form method="post" name="myemailform" action="send_form_email.php" >
 								<div class="field">
 									<label for="name">Name</label>
 									<input type="text" name="name" id="name" />
@@ -151,7 +153,7 @@
 								</div>
 								<ul class="actions">
 									<li>
-									<form method="post" action="mailto:me@bidyutm.com" >
+										<!-- <input type="submit" value="Send Message"> <a href="https://www.bidyutm.com/send_form_email.php">Email Form</a>  -->
 										<input type="submit" value="Send Message" /> 
 									</form>
 									</li>
