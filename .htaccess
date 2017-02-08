@@ -6,7 +6,12 @@
 RewriteEngine On
 # Force www
 RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI}?ver=10 [L,R=301]
+
+# Versioning
+#RewriteRule ^(.*)$  $1?ver=10 [PT]
+#RewriteRule ^$  ?hey=10 [R]
+
 
 # Force HTTPS
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
