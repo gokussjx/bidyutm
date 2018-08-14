@@ -1,0 +1,7 @@
+# Google credentials
+GOOGLE_EMAIL=bidyut@znuked.com
+GOOGLE_PASSWORD=xjkjlpvukwzijmax
+
+# Publicly accessible URL to your server, WITHOUT trailing slash
+#APP_URL=https://www.bidyutm.com/geemusic
+APP_URL=https://www.bidyutm.com
